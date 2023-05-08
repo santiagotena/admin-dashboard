@@ -6,27 +6,64 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Admin Dashboard</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
 	<div class="grid-container">
 		<div class="side-bar">
-			<div>Dashboard</div>
-			<div>Home</div>
-			<div>Profile</div>
-			<div>Messages</div>
-			<div>History</div>
-			<div>Tasks</div>
-			<div>Communities</div>
-			<div>Settings</div>
-			<div>Support</div>
-			<div>Privacy</div>
+			<div class="side-item logo">
+				<img src="icons/view-dashboard.svg" alt="dashboard-icon">
+				<h1>Dashboard</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/home.svg" alt="home-icon">
+				<h1>Home</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/card-account-details.svg" alt="profile-icon">
+				<h1>Profile</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/android-messages.svg" alt="messages-icon">
+				<h1>Messages</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/clock-outline.svg" alt="history-icon">
+				<h1>History</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/note-multiple.svg" alt="tasks-icon">
+				<h1>Tasks</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/account-group.svg" alt="communities-icon">
+				<h1>Communities</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/cog.svg" alt="settings-icon">
+				<h1>Settings</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/message-question.svg" alt="support-icon">
+				<h1>Support</h1>
+			</div>
+			<div class="side-item logo">
+				<img src="icons/shield-check.svg" alt="privacy-icon">
+				<h1>Privacy</h1>
+			</div>
+			
 		</div>
 		<div class="user-container">
 			<div class="header">
-				<div class="search">Search Bar</div>
-				<div class="notifications">Santiago Tena</div>
-				<div class="user">Hello there, Santiago Tena (@stena-he)</div>
-				<div class="actions">
+				<div class="header-item search">
+					<img src="icons/magnify.svg" alt="magnify-icon">
+					<input type="text" name="search" autocomplete="off">
+				</div>
+				<div class="header-item account">
+					<img src="icons/bell-ring-outline.svg" alt="bell-icon">
+				</div>
+				<div class="header-item user">Hello there, Santiago Tena (@stena-he)</div>
+				<div class="header-item actions">
 					<ul>
 						<li><button>New</button></li>
 						<li><button>Upload</button></li>
