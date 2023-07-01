@@ -11,61 +11,234 @@
 <body>
 <!--	Sidebar-->
 	<div class="sidebar">
-		<div class="dashboard menuItem">
-			<img src="icons/view-dashboard.svg" alt="Dashboard icon">
+		<div class="dashboard menu-item">
+			<img src="icons/view-dashboard.svg" alt="Dashboard">
 			<h1>Dashboard</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/home.svg" alt="Home icon">
+		<div class="menu-item">
+			<img src="icons/home.svg" alt="Home">
 			<h1>Home</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/card-account-details.svg" alt="Profile icon">
+		<div class="menu-item">
+			<img src="icons/card-account-details.svg" alt="Profile">
 			<h1>Profile</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/android-messages.svg" alt="Messages icon">
+		<div class="menu-item">
+			<img src="icons/android-messages.svg" alt="Messages">
 			<h1>Messages</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/clock-outline.svg" alt="History icon">
+		<div class="menu-item">
+			<img src="icons/clock-outline.svg" alt="History">
 			<h1>History</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/note-multiple.svg" alt="Tasks icon">
+		<div class="menu-item">
+			<img src="icons/note-multiple.svg" alt="Tasks">
 			<h1>Tasks</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/account-group.svg" alt="Communities icon">
+		<div class="menu-item">
+			<img src="icons/account-group.svg" alt="Communities">
 			<h1>Communities</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/cog.svg" alt="Settings icon">
+		<div class="menu-item">
+			<img src="icons/cog.svg" alt="Settings">
 			<h1>Settings</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/message-question.svg" alt="Support icon">
+		<div class="menu-item">
+			<img src="icons/message-question.svg" alt="Support">
 			<h1>Support</h1>
 		</div>
-		<div class="menuItem">
-			<img src="icons/shield-check.svg" alt="Privacy icon">
+		<div class="menu-item">
+			<img src="icons/shield-check.svg" alt="Privacy">
 			<h1>Privacy</h1>
 		</div>
 	</div>
 
 <!--Navigation bar-->
-	<div class="navbar">
+	<div class="nav-bar">
 <!--		Top section-->
-		<div class="upperNav">
+		<div class="upper-nav">
+<!--			Search and search bar-->
 			<div class="search">
-				
+				<img src="icons/magnify.svg" alt="Search">
+				<input type="text" name="search" autocomplete="off">
+			</div>
+			<div class="account">
+				<div class="menu-item">
+					<img src="icons/bell-ring-outline.svg" alt="Notification">
+				</div>
+<!--				Avatar from GitHub-->
+				<div class="github-avatar"></div>
+				<p class="user-name">Santiago Tena</p>
 			</div>
 		</div>
 <!--		Bottom section-->
+		<div class="lower-nav">
+<!--			Profile details-->
+			<div class="profile">
+				<div class="github-avatar"></div>
+				<div class="profile-name"></div>
+				<p class="greeting">Hello there,</p>
+				<p class="name">Santiago Tena <span class="handle">(@santiagotena)</span></p>
+			</div>
+		</div>
+<!--		Buttons-->
+		<div class="buttons">
+			<button class="btn">New</button>
+			<button class="btn">Upload</button>
+			<button class="btn">Share</button>
+		</div>
 	</div>
 
 <!--Main Content-->
-	<div></div>
+	<main class="content">
+<!--		Projects section-->
+		<div class="projects">
+			<h3>Your Projects</h3>
+<!--			Project cards-->
+			<div class="cards">
+<!--				Individual card-->
+				<div class="card">
+					<h5 class="card-title">Super Cool Project</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="icons">
+						<img src="icons/star-plus-outline.svg" alt="Star">
+						<img src="icons/eye-plus-outline.svg" alt="Eye">
+						<img src="icons/source-branch.svg" alt="Branch">
+					</div>
+				</div>
+				<!--				Individual card-->
+				<div class="card">
+					<h5 class="card-title">Less Cool Project</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="icons">
+						<img src="icons/star-plus-outline.svg" alt="Star">
+						<img src="icons/eye-plus-outline.svg" alt="Eye">
+						<img src="icons/source-branch.svg" alt="Branch">
+					</div>
+				</div>
+				<!--				Individual card-->
+				<div class="card">
+					<h5 class="card-title">Impossible App</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="icons">
+						<img src="icons/star-plus-outline.svg" alt="Star">
+						<img src="icons/eye-plus-outline.svg" alt="Eye">
+						<img src="icons/source-branch.svg" alt="Branch">
+					</div>
+				</div>
+				<!--				Individual card-->
+				<div class="card">
+					<h5 class="card-title">Easy Peasy App</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="icons">
+						<img src="icons/star-plus-outline.svg" alt="Star">
+						<img src="icons/eye-plus-outline.svg" alt="Eye">
+						<img src="icons/source-branch.svg" alt="Branch">
+					</div>
+				</div>
+				<!--				Individual card-->
+				<div class="card">
+					<h5 class="card-title">Ad Blocker</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="icons">
+						<img src="icons/star-plus-outline.svg" alt="Star">
+						<img src="icons/eye-plus-outline.svg" alt="Eye">
+						<img src="icons/source-branch.svg" alt="Branch">
+					</div>
+				</div>
+				<!--				Individual card-->
+				<div class="card">
+					<h5 class="card-title">Money Maker</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="icons">
+						<img src="icons/star-plus-outline.svg" alt="Star">
+						<img src="icons/eye-plus-outline.svg" alt="Eye">
+						<img src="icons/source-branch.svg" alt="Branch">
+					</div>
+				</div>
+			</div>
+		</div>
+<!--		Side content-->
+<!--		Announcements section-->
+		<div class="announcements">
+			<h3>Announcements</h3>
+			<ul class="card">
+<!--				Individual announcement-->
+				<li class="announcement">
+					<h5 class="card-title">Site Maintenance</h5>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur autem
+						cupiditate dicta, earum facilis illo libero numquam quam quos sit vitae.
+						Alias aperiam asperiores, cum ducimus eos explicabo obcaecati.
+					</p>
+				</li>
+<!--				Individual announcement-->
+				<li class="announcement">
+					<h5 class="card-title">Community Share Day</h5>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur autem
+						cupiditate dicta, earum facilis illo libero numquam quam quos sit vitae.
+						Alias aperiam asperiores, cum ducimus eos explicabo obcaecati.
+					</p>
+				</li>
+<!--				Individual announcement-->
+				<li class="announcement">
+					<h5 class="card-title">Updated Privacy Policy</h5>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur autem
+						cupiditate dicta, earum facilis illo libero numquam quam quos sit vitae.
+						Alias aperiam asperiores, cum ducimus eos explicabo obcaecati.
+					</p>
+				</li>
+			</ul>
+		</div>
+<!--		Trending section-->
+		<div class="trending">
+			<h3>Trending</h3>
+			<ul class="card">
+				<li class="trend trend-one">
+					<div class="github-avatar-two"></div>
+					<div class="account">
+						<p class="handle">@tegan</p>
+						<p class="name card-text">World Peace Builder</p>
+					</div>
+				</li>
+				<li class="trend trend-two">
+					<div class="github-avatar"></div>
+					<div class="account">
+						<p class="handle">@santiagotena</p>
+						<p class="name card-text">Super Cool Project</p>
+					</div>
+				</li>
+				<li class="trend trend-three">
+					<div class="github-avatar-three"></div>
+					<div class="account">
+						<p class="handle">@kendall</p>
+						<p class="name card-text">Life Changing App</p>
+					</div>
+				</li>
+				<li class="trend trend-four">
+					<div class="github-avatar-four"></div>
+					<div class="account">
+						<p class="handle">@alex</p>
+						<p class="name card-text">No Traffic Maker</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</main>
 
 </body>
 </html>
