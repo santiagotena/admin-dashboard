@@ -39,7 +39,7 @@ img {
     background-color: var(--sidebar-color);
     padding: 10px;
     position: fixed;
-    width: 25%;
+    width: 25vw;
     height: 100vh;
 }
 .sidebar > div:not(:first-child) > * {
